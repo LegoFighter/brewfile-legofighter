@@ -1,4 +1,7 @@
-# brewfile-andywenk
+# add the brewfile with syslink with
+    $ ln -s ~/Code/brewfile-legofighter/Brewfile ~/Brewfile 
+
+# brewfile-legofighter
 
 This is the brewfile I use for my local workstation.
 
