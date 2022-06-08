@@ -9,7 +9,7 @@ brew "nmap"
 brew "wget"
 brew "htop"
 brew "rbenv"
-brew "ruby-build"
+#brew "ruby-build"
 #brew "cabextract"
 #brew "ipfs"
 brew "pandoc"
@@ -47,7 +47,7 @@ cask "google-drive"			# https://www.google.com/drive/
 #brew "elastic/tap/kibana-full"			# https://www.elastic.co/guide/en/kibana/current/brew.html
 #brew "elastic/tap/metricbeat-full"
 
-# CouchDB  
+#CouchDB  
 #brew "coreutils"
 #brew "erlang"
 #brew "autoconf-archive"
@@ -69,8 +69,8 @@ brew "pyenv"				# https://wilsonmar.github.io/pyenv/
 #brew "smpeg"
 
 # GO
-brew "go"
-brew 'hugo'			# https://gohugo.io/	
+#brew "go"
+#brew 'rbhugo'			# https://gohugo.io/	
 
 # Java
 brew "java"
@@ -123,13 +123,13 @@ cask "cryptomator"		# https://cryptomator.org/
 cask "devonthink"		# https://www.devontechnologies.com/apps/devonthink/	
 #cask "firefox"			# https://firefox.com
 #cask "wondershare-filmora"	# https://filmora.wondershare.com/
-cask "spotify"			#
+#cask "spotify"			#
 cask "licecap"			# https://www.cockos.com/licecap/
 #cask "ledger-live"		#
 #cask "nextcloud"		#
 #cask "tableplus"		#
 #cask "moneymoney"		# https://moneymoney-app.com/
-cask "arq"			# https://www.arqbackup.com/
+#cask "arq"			# https://www.arqbackup.com/
 #cask "path-finder"		#
 cask "vyprvpn"			#
 #cask "syncthing"		# https://syncthing.net/
@@ -164,16 +164,19 @@ cask "zettlr"			# https://www.zettlr.com/download/macos
 #brew "helm"			# https://helm.sh
 
 # Data Science
-brew 'apache-spark'		# https://spark.apache.org/
+#brew 'apache-spark'		# https://spark.apache.org/
 cask 'adoptopenjdk8'		# https://maelfabien.github.io/bigdata/SparkInstall/#
 brew 'scala'	
 brew 'jupyterlab'
 brew 'php'
 cask 'phantomjs'		# https://phantomjs.org/
 brew 'jython'			# https://www.jython.org
-brew 'hadoop'			# for pyspqrk
+#brew 'hadoop'			# for pyspqrk
 
 # browser
 cask 'firefox'
 cask 'google-chrome'
 
+# digital blast
+cask "slack"
+cask "docker"
