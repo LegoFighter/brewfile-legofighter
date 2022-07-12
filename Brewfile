@@ -3,6 +3,10 @@ tap "homebrew/cask-versions"
 #tap "elastic/tap"			# https://www.elastic.co/guide/en/elasticsearch/reference/7.13/brew.html
 cask_args appdir: "/Applications"
 
+brew 'openjdk'
+brew "cocoapods"
+brew "gnu-sed"
+brew 'mysql'
 brew "gzip"
 brew "pwgen"
 brew "nmap"
@@ -29,7 +33,7 @@ brew "ffmpeg"
 cask "appflowy"				# https://github.com/AppFlowy-IO/appflowy
 brew "gh"				# https://cli.github.com/
 cask "google-drive"			# https://www.google.com/drive/
-
+brew 'youtube-dl'
 # Drawing
 #cask "krita"				# https://krita.org/
 #cask "firealpaca"			# https://firealpaca.com/
@@ -54,6 +58,9 @@ cask "google-drive"			# https://www.google.com/drive/
 #brew "automake"
 #brew "icu4c"
 
+#JavaScript
+brew 'node@18'
+
 # Python 3
 brew "pyenv"				# https://wilsonmar.github.io/pyenv/
 #brew "pyenv-virtualenv"			
@@ -72,10 +79,29 @@ brew "pyenv"				# https://wilsonmar.github.io/pyenv/
 #brew "go"
 #brew 'rbhugo'			# https://gohugo.io/	
 
+# Game Dev
+cask 'gb-studio'
+cask 'gearboy'
+cask 'godot'
+
+# Games
+cask 'gog-galaxy'
+
 # Java
 brew "java"
 
 # software
+cask 'adoptopenjdk13'
+cask 'tableau'
+cask 'raspberry-pi-imager'
+cask 'nvidia-geforce-now'
+cask 'cmake'
+cask 'ankiapp-anki'
+cask 'android-sdk'
+cask 'android-studio'
+cask 'adobe-acrobat-reader'
+cask 'androidtool'
+cask '1password'
 #cask "font-hack-nerd-font"                     
 #cask "gpg-suite"
 cask "iterm2"                                  
@@ -144,6 +170,8 @@ cask "alfred"			# https://www.alfredapp.com/
 cask "obsidian"			# https://obsidian.md/
 cask "meetingbar"		# https://meetingbar.onrender.com
 cask "discord"			# https://discord.com/
+cask 'figma'
+cask 'slack'
 
 # security	
 #cask "lulu"			# https://objective-see.com/products/lulu.html
@@ -160,8 +188,9 @@ cask "zettlr"			# https://www.zettlr.com/download/macos
 # K8s
 #cask 'lens'			# https://k8slens.dev/
 #brew 'k3d'			# https://k3d.io/
-#cask 'docker'			# https://www.docker.com/products/docker-desktop
+cask 'docker'			# https://www.docker.com/products/docker-desktop
 #brew "helm"			# https://helm.sh
+brew 'mkcert'
 
 # Data Science
 #brew 'apache-spark'		# https://spark.apache.org/
@@ -176,7 +205,3 @@ brew 'jython'			# https://www.jython.org
 # browser
 cask 'firefox'
 cask 'google-chrome'
-
-# digital blast
-cask "slack"
-cask "docker"
