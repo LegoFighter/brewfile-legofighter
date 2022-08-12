@@ -3,6 +3,7 @@ tap "homebrew/cask-versions"
 #tap "elastic/tap"			# https://www.elastic.co/guide/en/elasticsearch/reference/7.13/brew.html
 cask_args appdir: "/Applications"
 
+brew 'graphviz'
 brew 'openjdk'
 brew "cocoapods"
 brew "gnu-sed"
@@ -58,6 +59,8 @@ brew 'youtube-dl'
 #brew "automake"
 #brew "icu4c"
 
+brew 'haxe'
+
 #JavaScript
 brew 'node@18'
 
@@ -91,6 +94,8 @@ cask 'gog-galaxy'
 brew "java"
 
 # software
+cask 'defold'
+cask 'gimp'
 cask 'adoptopenjdk13'
 cask 'tableau'
 cask 'raspberry-pi-imager'
