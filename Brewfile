@@ -94,6 +94,7 @@ cask 'gog-galaxy'
 brew "java"
 
 # software
+cask 'android-studio'
 cask 'defold'
 cask 'gimp'
 cask 'adoptopenjdk13'
